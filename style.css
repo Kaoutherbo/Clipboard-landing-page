@@ -71,12 +71,12 @@ padding:25px 0;
 .buttoms button.ios{
     background-color:var(--Strong-Cyan);
     box-shadow: 2px 2px 4px var(--Strong-Cyan),2px 2px 2px var(--Strong-Cyan);
-    transition:0.3s;
+    transition:0.2s;
 }
 .buttoms button.mac{
     background-color: var(--Light-Blue);
     box-shadow: 2px 2px 4px var(--Light-Blue);
-    transition:  0.3s;
+    transition:  0.2s;
 }
 .first{
     text-align: center;
