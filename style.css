@@ -179,12 +179,16 @@ footer{
     margin-left: 15px;
     width:25px;
 }
-@media(max-width:765px){
 
-header{
-    background-image: url("./images/bg-header-mobile.png");
+@media(max-width:765px){
+    body{
+width: 100%;
+background-image: url("./images/bg-header-mobile.png");
     background-size: cover;
-    padding: 40px 10px;
+    }
+    header{
+    border:0;
+    padding:40px 10px;
     margin-bottom: 20px;
 }
 .intro{
@@ -255,7 +259,7 @@ footer{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 20px 0;
+    width: 100%;
 }
 #social-media{
     align-items: flex-end ;
@@ -269,6 +273,6 @@ footer{
   padding: 20px 0;
 }
 #footer-logo{
-    width: 15%;
+    width: 25%;
 }
 }
