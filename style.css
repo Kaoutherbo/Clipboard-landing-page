@@ -37,6 +37,9 @@ header{
     padding: 30px 70px;
     height: 100vh;
 }
+span{
+    color:var(--Grayish-Blue);
+}
 .main{
     display: flex;
     flex-direction: column;
@@ -58,8 +61,8 @@ padding:25px 0;
 .buttoms button{
     padding:10px 30px;
     background: transparent;
-    margin: 0 20px;
-    border-radius: 15px;
+    margin: 0 30px;
+    border-radius: 20px;
     cursor: pointer;
     outline: none;
     border: none;
@@ -67,13 +70,13 @@ padding:25px 0;
 }
 .buttoms button.ios{
     background-color:var(--Strong-Cyan);
-    box-shadow: 2px 2px 4px var(--Strong-Cyan);
-    transition:0.15s;
+    box-shadow: 2px 2px 4px var(--Strong-Cyan),2px 2px 2px var(--Strong-Cyan);
+    transition:0.3s;
 }
 .buttoms button.mac{
     background-color: var(--Light-Blue);
     box-shadow: 2px 2px 4px var(--Light-Blue);
-    transition:  0.1s;
+    transition:  0.3s;
 }
 .first{
     text-align: center;
@@ -195,6 +198,7 @@ background-image: url("./images/bg-header-mobile.png");
     width:95%;  
 }
 .buttoms button{
+    padding: 13px 40px;
         margin:20px 0;
         display: block;
     }
@@ -259,6 +263,7 @@ footer{
     align-items: center;
     flex-direction: column;
     text-align: center;
+    padding: auto;
 }
 #social-media{
     align-items: flex-end ;
