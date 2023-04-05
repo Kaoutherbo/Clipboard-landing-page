@@ -18,6 +18,9 @@
     margin:0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 body{
     font-family: var(--font-family);
     font-size: var(--font-size);
@@ -156,7 +159,7 @@ height: 100px;
 }
 footer{
     padding: 25px 90px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(245, 239, 239);
     display: grid;
  grid-template-columns: minmax(160px,1fr) 4fr minmax(160px,1fr);
 }
