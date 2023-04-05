@@ -159,7 +159,7 @@ height: 100px;
 }
 footer{
     padding: 25px 90px;
-    background-color: rgb(245, 239, 239);
+    background-color: rgb(238, 238, 238);
     display: grid;
  grid-template-columns: minmax(160px,1fr) 4fr minmax(160px,1fr);
 }
